@@ -15,6 +15,9 @@ final class DeckTests: XCTestCase {
     func testShuffleCards() throws {
         let initialDeck = deck
         deck.shuffle()
+        
+        let a = initialDeck.cards
+        let b = deck.cards
         XCTAssertNotEqual(deck.cards, initialDeck.cards)
     }
 

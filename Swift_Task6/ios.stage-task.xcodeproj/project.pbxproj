@@ -24,6 +24,7 @@
 		8273B5302668FDF000717D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8273B52E2668FDF000717D50 /* Main.storyboard */; };
 		8273B5322668FDF200717D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8273B5312668FDF200717D50 /* Assets.xcassets */; };
 		8273B5352668FDF200717D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8273B5332668FDF200717D50 /* LaunchScreen.storyboard */; };
+		A2423457268868F100790326 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24234552688685600790326 /* GameTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8273B53B2668FDF200717D50 /* ios.stage-taskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios.stage-taskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8273B5412668FDF200717D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8273B55F2668FEE600717D50 /* ios.stage-task.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ios.stage-task.xctestplan"; sourceTree = "<group>"; };
+		A24234552688685600790326 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				821822DF267B4F9100F55DC7 /* DeckTests.swift */,
+				A24234552688685600790326 /* GameTests.swift */,
 				821822E0267B4F9100F55DC7 /* PlayerTests.swift */,
 				821822DD267B4F9100F55DC7 /* CardTests.swift */,
 				821822DE267B4F9100F55DC7 /* CoronaClassTests.swift */,
@@ -277,6 +280,7 @@
 				821822E3267B4F9100F55DC7 /* DeckTests.swift in Sources */,
 				821822E2267B4F9100F55DC7 /* CoronaClassTests.swift in Sources */,
 				821822E1267B4F9100F55DC7 /* CardTests.swift in Sources */,
+				A2423457268868F100790326 /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

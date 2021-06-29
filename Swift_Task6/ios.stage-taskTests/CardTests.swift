@@ -26,6 +26,7 @@ class CardTests: XCTestCase {
         XCTAssertFalse(card.checkIfCanBeat(card: Card(suit: .diamonds, value: .six, isTrump: true)))
         XCTAssertFalse(card.checkIfCanBeat(card: Card(suit: .hearts, value: .ace, isTrump: false)))
         XCTAssertTrue(card.checkIfCanBeat(card: Card(suit: .hearts, value: .six, isTrump: false)))
+        
     }
 
 }
